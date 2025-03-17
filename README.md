@@ -516,4 +516,39 @@ In this milestone, we have created an endpoint in backend that stores the addres
 In this milestone, we will add a "Place Order" button inside the cart page, which navigates to a Select Address page where users can choose a delivery address. The backend will provide an endpoint to fetch user addresses, and we will create a Mongoose schema to store order details, including user ID, selected address, cart items, total price, and order status. This feature ensures a smooth checkout experience and sets the foundation for order management in the system.
 
 ### Milestone 24
-In this milestone, we will create an Order Confirmation Page to display the ordered products, selected delivery address, and total cart value. The page will include a "Place Order" button at the bottom to finalize the purchase. This step enhances the user experience by providing a clear summary before confirming the order
+In this milestone, we will create an Order Confirmation Page to display the ordered products, selected delivery address, and total cart value. The page will include a "Place Order" button at the bottom to finalize the purchase. This step enhances the user experience by providing a clear summary before confirming the order.
+
+### Milestone 25 - Place Order Button
+Overview
+---
+In this milestone, we implemented a "Place Order" button on the cart/checkout page. Clicking the button logs "Order Successful" in the console.
+
+Key Features
+Added a "Place Order" button.
+
+Implemented a click event to log "Order Successful" in the console.
+
+Testing Steps
+Navigate to the cart/checkout page.
+
+Click the "Place Order" button.
+
+Open the browser console and check for the message "Order Successful."
+
+### Milestone 26 - Creating a GET Route in order.js
+Overview
+In this milestone, we created a GET route in order.js to fetch order details from the backend.
+
+Key Features
+Implemented a GET route in order.js.
+
+Allows retrieval of order data via API.
+
+Lays the foundation for displaying user orders in the frontend.
+
+Testing Steps
+Start the backend server.
+
+Send a GET request to the order endpoint using Postman or a browser.
+
+Verify that order details are returned as a response.
